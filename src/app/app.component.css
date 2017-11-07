@@ -1,0 +1,92 @@
+.map
+{
+   
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/CoukkasBackImage.jpg');
+    background-size: cover; 
+    text-align: center;
+    position: relative;
+
+   
+}
+
+
+
+.header
+{
+    padding-top: 50px;
+    color: white;
+
+}
+
+.learn
+{
+   margin-left: auto;
+   margin-right: auto;
+   width: 130px;
+    height: 10px;
+
+}
+
+.learn:hover
+{
+   width: 100vw;
+}
+
+.PHeader
+{
+    font-size: 3vh;
+    color: black;
+}
+
+
+.learn:hover .learnText 
+{
+height: 20vh;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.52);
+visibility: visible;
+color: white;
+}
+
+.learnText 
+{
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+
+}
+
+.buttons
+{
+    top: 40%;
+    left: 35%;
+    position: absolute; 
+    width: 30vw; 
+}
+
+
+.buttonRegister
+{
+    padding: 15px;
+    width: 30vw;
+    border: solid 2px black;
+    background-color: rgba(0, 68, 186, 0.3);
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+
+.buttonLogin
+{
+    padding: 15px;
+    width: 30vw;
+    border: solid 2px black;
+    background-color: rgba(0, 186, 31, 0.25);
+    color: #FFFFFF;
+    border-radius: 40px;
+
+}
+  
+    
+

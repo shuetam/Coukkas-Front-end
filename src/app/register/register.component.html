@@ -1,0 +1,40 @@
+
+  <section class="container">
+
+    <h3 class="page-header">User Registration</h3>
+  
+    <div class="form-group col-lg-6">
+      
+      <label>Username</label>
+     
+      <input [(ngModel)]="this.model.name"   type="text"   placeholder="Your username">
+
+    </div>
+    
+    <div class="form-group col-lg-6">
+      <label>Email</label>
+      <input [(ngModel)]="this.model.email" type="text"  placeholder="you@example.com">
+    </div>
+    
+    <div class="form-group col-lg-6">
+      <label>Password</label>
+      <input [(ngModel)]="this.model.password" type="password" >
+    </div>
+    
+    <div class="form-group col-lg-6">
+      <label>Repeat Password</label>
+      <input [(ngModel)]="this.model.confirmPassword" type="password">
+    </div>
+            
+    
+    <div class="form-group col-lg-6">
+      <button type="submit" class="btn btn-primary" (click)="register()">Register</button>
+    </div>	
+    
+        <label id="model">{{this.model | json}}</label>
+    
+  </section>
+ 
+ 
+
+
