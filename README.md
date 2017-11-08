@@ -1,6 +1,6 @@
 # Coukkas-Front-end
 
-![coukkasimage](https://user-images.githubusercontent.com/23640684/32520722-48e9c0b2-c411-11e7-9c37-3619d7397bfc.jpg)
+![coukkasimagegit](https://user-images.githubusercontent.com/23640684/32557185-b8891df6-c4a1-11e7-86d2-75d9b85e1125.JPG)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
