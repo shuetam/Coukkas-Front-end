@@ -26,12 +26,13 @@
    margin-right: auto;
    width: 130px;
     height: 10px;
+    cursor: default;
 
 }
 
 .learn:hover
 {
-   width: 100vw;
+   width: 90vw;
 }
 
 .PHeader
@@ -43,11 +44,13 @@
 
 .learn:hover .learnText 
 {
-height: 20vh;
+padding: 10px;
 width: 100%;
-background-color: rgba(0, 0, 0, 0.52);
+
 visibility: visible;
-color: white;
+color: #000000;
+background-color: rgba(0, 0, 0, 0.30);
+
 }
 
 .learnText 
@@ -64,6 +67,8 @@ color: white;
     left: 35%;
     position: absolute; 
     width: 30vw; 
+
+    
 }
 
 
@@ -75,6 +80,7 @@ color: white;
     background-color: rgba(0, 68, 186, 0.3);
     color: #FFFFFF;
     border-radius: 40px;
+
 }
 
 .buttonLogin
